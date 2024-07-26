@@ -4,7 +4,7 @@
 using namespace std;
 
 void Sort(int lb,int ub, vector<int> &arr,  vector<int> &res);
-void Merge(int lb, int mid, int ub, vector<int> &arr, vector<int> &res);
+void Merge(int lb, int mid, int ub, vector<int> &arr, vector<int> &res); 
 
 vector<int> mergeSort(int n, vector<int> &arr)
 {
